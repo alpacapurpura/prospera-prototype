@@ -1,0 +1,425 @@
+{
+  "clientId": "prospera",
+  "schemaVersion": 1,
+  "specVersion": "1.0",
+  "sourceRevision": "1346bda3600a75183d8d1a3efe4f2cfa3d1f1e77",
+  "generatedAt": "2026-10-09T16:32:46.159Z",
+  "inputs": [
+    {
+      "path": "build/manifest.json",
+      "sha256": "c95b6d098cf27447a6979325f0986ff655f4712e50a564d4442998e6c3f9f285"
+    },
+    {
+      "path": "src/shell.html",
+      "sha256": "00903c2af5b61aeac9397663f4505946f83aaca47e458dbb0189814b57263c26"
+    },
+    {
+      "path": "src/ds/tokens.css",
+      "sha256": "e228ea2d58491903b13d950f274ba6406d0cf9951d044b1d9e64d20e571bf6a6"
+    },
+    {
+      "path": "src/ds/extensions.css",
+      "sha256": "9a66516992037fe5ce648327a27717437a7a5e4234be580cd0eb59a983f1e930"
+    },
+    {
+      "path": "src/ds/base.css",
+      "sha256": "9bf0605bea920283c63536b4e42860f01d6da5baf80ad2b9edc166b8a6dd1c39"
+    },
+    {
+      "path": "src/ds/atoms.css",
+      "sha256": "416f7d376d9e197a94f1201966679c995049e2b2f41f5a77a9a3a36bc14e148a"
+    },
+    {
+      "path": "src/ds/molecules.css",
+      "sha256": "dd214e2c3b2e6930cd297c1a6dbf4d50ac4f368fa5a2e5bc1f7570bc822407d4"
+    },
+    {
+      "path": "src/styles/layout.css",
+      "sha256": "0714312353fef440f0b647a2b6da34c012a852e3f5287b0ea5beb752647b67fa"
+    },
+    {
+      "path": "src/styles/visualization.css",
+      "sha256": "28ec79ddb9c13e8dca52a4075f8ad9d5dc91f210f5d9f569f41c518f85bef52c"
+    },
+    {
+      "path": "src/styles/responsive.css",
+      "sha256": "444760724164360b358d6f28a57a4b1e3c9633c90228b1f730f724caea376cec"
+    },
+    {
+      "path": "src/styles/print.css",
+      "sha256": "ee71e91dd6a0764ea8ac4fd068c153cd9dfcdcdec62a5f30e73c78f9e6013055"
+    },
+    {
+      "path": "src/prelude.js",
+      "sha256": "0b05af2f31f828fd92201e63baffef565f867d108b30fb296cef6cabe4d1a4e8"
+    },
+    {
+      "path": "schemas/pack-validator.js",
+      "sha256": "af4f8116ecd33e7c914548a9d7e290e69825205b760847f355de4a39c0fc3608"
+    },
+    {
+      "path": "src/core/dom.js",
+      "sha256": "838a7b362d72dc1f016609456f52a13d54e391d570664df675b91f1e6943e5bd"
+    },
+    {
+      "path": "src/core/format.js",
+      "sha256": "6ae49d47940fade525c5c86b91cef27938ea8d20d6b0966f2e57bba1eb4753d6"
+    },
+    {
+      "path": "src/core/pack.js",
+      "sha256": "21d15791f7da3c621de3d5db5c8c0c142e2613b34d3372863e24bfe023f82061"
+    },
+    {
+      "path": "src/core/graph.js",
+      "sha256": "32b08b411a6aa4a70cbdcc5c12371406276afe1a086f838d31911fdca910698d"
+    },
+    {
+      "path": "src/core/permissions.js",
+      "sha256": "3abb75be95356ce5c57ccbffd52704d2d156bf0f31cc0e154b412a30e1622997"
+    },
+    {
+      "path": "src/core/versions.js",
+      "sha256": "7fa77ed25082ce3df9ccdfc92c0b8cf650f5b8d7601670fb1b343f1ab62cbf3b"
+    },
+    {
+      "path": "src/core/scenarios.js",
+      "sha256": "6636b025839cd5b2f15dd023e8ff93ff1116cdfc5c5570437471dbf8c1a9fcec"
+    },
+    {
+      "path": "src/core/selectors.js",
+      "sha256": "fd7d933e5343b8eb201f2a90970613036ac84fb090859f6670ec0f0ebc7f2f4f"
+    },
+    {
+      "path": "src/core/commands/app.js",
+      "sha256": "aa8031e01814ef95d8b5db4873489a5d1621af5a9f1fa9399d2c2186b7ed78f7"
+    },
+    {
+      "path": "src/core/commands/web.js",
+      "sha256": "48a2e1c9cd676a2d85400f5e1891bb57b137f6be354112709b09a8c76dc725f5"
+    },
+    {
+      "path": "src/core/commands/tracking.js",
+      "sha256": "30e3dce8cd8c05a0cbfa8ca48b1c0f612803bb03b4a45f1a0d88fdb926e5a13d"
+    },
+    {
+      "path": "src/core/commands/security.js",
+      "sha256": "39202d9a3710b3085d59357570df13540ffaf9e143e6ef9b72f5122744b2f917"
+    },
+    {
+      "path": "src/core/commands/desktop.js",
+      "sha256": "e5958a0f59a7b03644afcee7428d38346de3764e6e05cf534b06bb73f4893aaf"
+    },
+    {
+      "path": "src/core/commands/index.js",
+      "sha256": "620d57c334838ea1c1b93105b8f2b4e4ed6d1b816c9c52a695b26040d7d15a67"
+    },
+    {
+      "path": "src/core/store.js",
+      "sha256": "c989bc2f1e95d6ace11f37d356fb7cef26c329586539db3c68bc59f3d36ea3ec"
+    },
+    {
+      "path": "src/ds/icons.js",
+      "sha256": "fd471963d132772357ae7a90961994f6e68f78283c2f8c3084b1ca26e43efa8a"
+    },
+    {
+      "path": "src/ds/atoms.js",
+      "sha256": "46379e02573effef9123e2a071dcf5b71f02c1e4cd6e87f81fda6c7468ee32e9"
+    },
+    {
+      "path": "src/ds/molecules.js",
+      "sha256": "dfe5ba8fbda12503523416b2c2fbbec905d0c3c3ee66f3313aa1a32e0e2c297f"
+    },
+    {
+      "path": "src/components/shell/header.js",
+      "sha256": "fdde0d2bdb7c47a69396961254c79939d43141a2c86a4e562286423871a22cf3"
+    },
+    {
+      "path": "src/components/shell/tabbar.js",
+      "sha256": "845c261288c009472f5d13d474b2918a634bc7300ce8866806930f19c34ccca8"
+    },
+    {
+      "path": "src/components/shell/about.js",
+      "sha256": "2864796eeb37967902bb1b7cf73e2afac191a3310df200a673a7a7dd05bcdd1f"
+    },
+    {
+      "path": "src/components/shell/reset.js",
+      "sha256": "74c342de73f4b47fbb1dbf5e257857c9e7dbd29e16b148263d11fac88572be0a"
+    },
+    {
+      "path": "src/components/shell/notices.js",
+      "sha256": "c69237246a06ce23433ebfabc93f87bce194a699844f120e56148ec84646db77"
+    },
+    {
+      "path": "src/components/twin/canvas.js",
+      "sha256": "0db6aab17f6f7b3b7291cb820b734fd54d10405ddea40920d2f0dedd81a58bb9"
+    },
+    {
+      "path": "src/components/twin/rail.js",
+      "sha256": "ece056266a254d64a4f619d270a7aaa7907f9fc7ac9621ad1f4461ff7f4ec3e8"
+    },
+    {
+      "path": "src/components/twin/contextbar.js",
+      "sha256": "c8d5a7f6dd14c6e8523a6a5446208a74a96d5d04065233fe6e53d9bcf84d4adb"
+    },
+    {
+      "path": "src/components/twin/entitylist.js",
+      "sha256": "a872235d62f31800bcf42e8acb7cca1378c65fef67198c17d0a66984fdff9640"
+    },
+    {
+      "path": "src/components/twin/inspector.js",
+      "sha256": "a39c5ab29dae91c2635ab9dc9e4235d7f07e7d947cd579ca95ab5ea277f37ce6"
+    },
+    {
+      "path": "src/components/twin/history.js",
+      "sha256": "1a160fe1abaa86005f01b4cac0cc0fb1780f57b7a5605572d3307f040b6b1834"
+    },
+    {
+      "path": "src/components/analyst/roster.js",
+      "sha256": "9668d8be1144517e5d6ce3355a4578844dd272c660ecd2b11635fb7ae601836d"
+    },
+    {
+      "path": "src/components/analyst/contextchips.js",
+      "sha256": "0eb2760c398a2db1aedf8ccb7c4c45da8c6f66914960d7c34ea66add1e2a9041"
+    },
+    {
+      "path": "src/components/analyst/toolcard.js",
+      "sha256": "2597b814ebfcd9cfa3182cdfe1fc432cdee0c8db16e4342ef32b23bad50bd50a"
+    },
+    {
+      "path": "src/components/analyst/stream.js",
+      "sha256": "c193fd20c2420a0c2da7a1655ae0c4dda38177b4d6624280149e38214409b92b"
+    },
+    {
+      "path": "src/components/analyst/operations.js",
+      "sha256": "42bbb9e68b53156f9ce67908e08e3601827e58caa28fcb467fa4f8dd7d9b2356"
+    },
+    {
+      "path": "src/components/analyst/review.js",
+      "sha256": "71632a9d5fa3f3b057bcb84ecc6e94c23cf7ec3540540d7c4938379ce91416a3"
+    },
+    {
+      "path": "src/components/analyst/composer.js",
+      "sha256": "6509baf98a223e4c80b661ac684662f1bdbad16aadf56f09ff45be0e72304d6a"
+    },
+    {
+      "path": "src/components/analyst/evidence.js",
+      "sha256": "b1843a9abeedd95c076766b06d7a118168af2b004798eaec7a832f8e0496c69b"
+    },
+    {
+      "path": "src/features/architecture/index.js",
+      "sha256": "7b015075e95ae3de730fd8818266b89caeff07f074022c9c457afc229dd467f8"
+    },
+    {
+      "path": "src/features/scope/index.js",
+      "sha256": "e6760bd2d6a62a0d77cfdd66da4513fd2dcfd8579e05eb14fe5ea04063f46fd5"
+    },
+    {
+      "path": "src/features/methodologies/index.js",
+      "sha256": "44fe102bf506250244f791f9879a77a795faefbda02f13906de18a38464e3438"
+    },
+    {
+      "path": "src/features/web/orgchart.js",
+      "sha256": "00ed2a3dc24b5ae07d57973865b6e2b83af6ed469a9b2bf7869689082bdb17d0"
+    },
+    {
+      "path": "src/features/web/processmap.js",
+      "sha256": "922965ee5d2f84cc1f2699822fb7fadecead6f10bf703ebbc7a198b2f7b65383"
+    },
+    {
+      "path": "src/features/web/relations.js",
+      "sha256": "bde1394f0f320d857f5f7ee0de05092e6db98b9662e503c39b28fea4bb61ae3f"
+    },
+    {
+      "path": "src/features/web/areaspace.js",
+      "sha256": "01f244d6487fe1a87f0bca04dcf06a0016a61afc1acf50ef1cddfb207f39e470"
+    },
+    {
+      "path": "src/features/web/processsheet.js",
+      "sha256": "8c9ffe26dbc9215971899062b0114dcb103a86c6a30a31cddd1e61033af75214"
+    },
+    {
+      "path": "src/features/web/flow.js",
+      "sha256": "2330641b5391a3e99675c58ebfc1f22f9297310864d37ed00935ab2eab170e7b"
+    },
+    {
+      "path": "src/features/web/instruction.js",
+      "sha256": "e59a2a8d62c22766f523ec7b36ecf917e7a9a4b47aadd3250bf370d50bc1310c"
+    },
+    {
+      "path": "src/features/web/compare.js",
+      "sha256": "d5a0fe954f1c69dd8ce446ca52842822bf53cf23aac6d3f736f172aca9dd2ae9"
+    },
+    {
+      "path": "src/features/web/incidents.js",
+      "sha256": "9c2796006fba6a1a727e8296812ddf75b7ecea5f08c2d8dc076ee42928b4adb9"
+    },
+    {
+      "path": "src/features/web/projects.js",
+      "sha256": "e757349a1e51fd8f1ce9fc61c52c52f4416ff82fcc6c5786617cd719effa5dbd"
+    },
+    {
+      "path": "src/features/web/security.js",
+      "sha256": "8e7096530b6c9dca4a4bfc2bf74a9cedb1c565c44969a7ab432eb90d3ecebe79"
+    },
+    {
+      "path": "src/features/web/index.js",
+      "sha256": "c9bd8c8d6fbed0946d28b892cbc48f710a0f2f2dfc25d77a0720300a5cfaedbf"
+    },
+    {
+      "path": "src/features/desktop/scenario-ui.js",
+      "sha256": "92581cf2bb33d21badc5f5eda2bc50e7b1fa28ef673499cba89b3106a4eb7c0d"
+    },
+    {
+      "path": "src/features/desktop/index.js",
+      "sha256": "a2861a94d1a98861ed422a2258854c8af1dcc19272f75f2541d1f5d089897076"
+    },
+    {
+      "path": "src/main.js",
+      "sha256": "6a12f235e1c588f4d6ba478778271d526c49a96838c9356befcc11fac267f98c"
+    },
+    {
+      "path": "clients/prospera/pack.json",
+      "sha256": "1cadceb9ebefc5bf09cecd7df0db8f1db93ff7ed6c615c6a68c4eafb4d0be44b"
+    },
+    {
+      "path": "clients/prospera/source-register.json",
+      "sha256": "2ed12bc08b70b1b1498f2575a5bbb1a47a668b7b87859c0c345d7dba9f51d0d6"
+    },
+    {
+      "path": "clients/prospera/solution.json",
+      "sha256": "25ffdc31888e18a99dd0f186795efd6782a9aebda90950e7dde9963fc35b3c82"
+    },
+    {
+      "path": "clients/prospera/scope.json",
+      "sha256": "fc4b364cceca7c5765ece35e4335f9e9da83a2e7c022612180432432b7505c60"
+    },
+    {
+      "path": "clients/prospera/methodologies.json",
+      "sha256": "6588b5f2e5ddb119c98152dd3add4a1a3031629ad615abf1179f7cade1dc194e"
+    },
+    {
+      "path": "clients/prospera/organization.json",
+      "sha256": "0711f72f9ee01bc7c9d23c4143f3548f14cd3c4b509b8a4a73f0d5a58d7da064"
+    },
+    {
+      "path": "clients/prospera/case.json",
+      "sha256": "f9a762e074be64067dd538ea57b0dbae5236cd04e2facb0470fc21c5e5297a22"
+    },
+    {
+      "path": "clients/prospera/tracking.json",
+      "sha256": "57c7bb2c8399049445fd8dfa56082a84cdd9dbbaad73ea95a40fc9ec7fc84251"
+    },
+    {
+      "path": "clients/prospera/desktop.json",
+      "sha256": "512392871ad3c2f64253050b6547456c745522e2a2a41327d9329013b2c50639"
+    },
+    {
+      "path": "clients/prospera/scenarios.json",
+      "sha256": "47c479b773aee1587becfff8ed44514bc14739c386efe1f263a6590d5d897e81"
+    }
+  ],
+  "checks": [
+    {
+      "id": "manifest-files",
+      "ok": true,
+      "detail": "78 files present"
+    },
+    {
+      "id": "manifest-paths",
+      "ok": true,
+      "detail": "relative forward-slash paths"
+    },
+    {
+      "id": "manifest-complete",
+      "ok": true,
+      "detail": "every src/schemas js/css file is registered"
+    },
+    {
+      "id": "assets",
+      "ok": true,
+      "detail": "none"
+    },
+    {
+      "id": "modules-load",
+      "ok": true,
+      "detail": "56 modules registered"
+    },
+    {
+      "id": "pack-read",
+      "ok": true,
+      "detail": "10 files"
+    },
+    {
+      "id": "pack-validate",
+      "ok": true,
+      "detail": "112 entities, 140 relations, 3 versions, 3 flows, 16 sources, 8 solution nodes, 20 scope items, 13 methods, 4 profiles, 3 incidents, 1 projects, 3 accounts, 2 workspaces, 2 scenarios"
+    },
+    {
+      "id": "pack-resolve",
+      "ok": true,
+      "detail": "resolved"
+    },
+    {
+      "id": "schema-version",
+      "ok": true,
+      "detail": "pack 1 · manifest 1"
+    },
+    {
+      "id": "client-id",
+      "ok": true,
+      "detail": "prospera"
+    },
+    {
+      "id": "presentation-texts",
+      "ok": true,
+      "detail": "title \"PRIMUS para Próspera · Prototipo\""
+    },
+    {
+      "id": "external-urls",
+      "ok": true,
+      "detail": "3 allowlisted"
+    },
+    {
+      "id": "css-clean",
+      "ok": true,
+      "detail": "9 files, no @import"
+    },
+    {
+      "id": "js-clean",
+      "ok": true,
+      "detail": "57 files"
+    },
+    {
+      "id": "js-syntax",
+      "ok": true,
+      "detail": "new Function(js) ok"
+    },
+    {
+      "id": "shell-template",
+      "ok": true,
+      "detail": "placeholders replaced"
+    },
+    {
+      "id": "html-forbidden-tokens",
+      "ok": true,
+      "detail": "clean (3 allowlisted https urls)"
+    },
+    {
+      "id": "html-script-tags",
+      "ok": true,
+      "detail": "2 <script, 2 </script"
+    },
+    {
+      "id": "html-pack-json",
+      "ok": true,
+      "detail": "embedded pack parses"
+    },
+    {
+      "id": "html-size",
+      "ok": true,
+      "detail": "1,551,688 bytes of 5,242,880"
+    }
+  ],
+  "bytes": 1551688,
+  "sha256": "760650b3c481c63c213da105e0ae87e4f07f07d2db1e6641feaf590903c7c9b3"
+}
